@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="35.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="115.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="196.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="35.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="115.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="196.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="6">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="35.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="7">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="115.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="196.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="160.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="=">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="77.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="298.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="AC">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="387.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="*" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="301.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="/">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="298.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="+">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="390.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="-">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="390.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="Sqr">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="298.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="65.0" text="Simplify">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="390.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="65.0" text="Inverse">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Separator layoutX="273.0" layoutY="200.0" orientation="VERTICAL" prefHeight="288.0" prefWidth="6.0" />
+      <Separator layoutX="35.0" layoutY="172.0" prefHeight="19.0" prefWidth="414.0" />
+      <TextField alignment="CENTER" layoutX="41.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="42.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="144.0" layoutY="86.0" prefHeight="31.0" prefWidth="33.0" />
+      <TextField alignment="TOP_CENTER" layoutX="198.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="198.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Separator layoutX="34.0" layoutY="98.0" prefHeight="3.0" prefWidth="97.0" />
+      <Separator layoutX="193.0" layoutY="100.0" prefHeight="3.0" prefWidth="97.0" />
+      <Label layoutX="314.0" layoutY="63.0" text="=" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="368.0" layoutY="102.0" prefHeight="3.0" prefWidth="80.0" />
+   </children>
+   <effect>
+      <ColorAdjust brightness="-0.12" saturation="-1.0" />
+   </effect>
+</AnchorPane>
