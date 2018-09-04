@@ -18,7 +18,7 @@ public class Main extends Application{
 		Scene scene = new Scene(root);
 		
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Sorting Program");
+		primaryStage.setTitle("Calculator");
 		primaryStage.show();
 		
 	}
@@ -27,11 +27,11 @@ public class Main extends Application{
 		launch(args);
 		
 //		Calculator cal = new Calculator();
-////		cal.addRational(2,3,3,2);
-//		
+//		cal.addRational(2,3,3,2);
+//		cal.squaredRational(7, 1);
 //		System.out.println(cal.getNumerator());
 //		System.out.println(cal.getDenominator());
-//		
+		
 		
 		
 		

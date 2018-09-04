@@ -64,7 +64,7 @@ public class Calculator{
 	public void squaredRational(int num1, int num2) {
 		
 		RationalNumber<Integer> rational1 = new RationalNumber(num1, num2);
-		rational1.simplifyRational();
+		rational1.squaredRational();
 		this.numerator = (int) rational1.getNumerator();
 		this.denominator = (int) rational1.getDenominator();
 		
@@ -73,7 +73,7 @@ public class Calculator{
 	public void rationalInverse(int num1, int num2) {
 		
 		RationalNumber<Integer> rational1 = new RationalNumber(num1, num2);
-		rational1.simplifyRational();
+		rational1.rationalInverse();
 		this.numerator = (int) rational1.getNumerator();
 		this.denominator = (int) rational1.getDenominator();
 		
