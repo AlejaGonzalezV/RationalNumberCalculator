@@ -32,7 +32,7 @@ public class Calculator{
 		
 	}
 	
-	public void miltiplyRational(int num1, int num2, int num3, int num4) {
+	public void multiplyRational(int num1, int num2, int num3, int num4) {
 		
 		RationalNumber<Integer> rational1 = new RationalNumber(num1, num2);
 		RationalNumber<Number> rational2 = new RationalNumber(num3, num4);

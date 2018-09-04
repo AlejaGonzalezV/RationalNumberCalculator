@@ -7,122 +7,122 @@
 <?import javafx.scene.layout.*?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
    <children>
-      <Button layoutX="35.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="1">
+      <Button fx:id="num1" layoutX="35.0" layoutY="200.0" mnemonicParsing="false" onAction="#butNum1" prefHeight="53.0" prefWidth="58.0" text="1">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="115.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="2">
+      <Button fx:id="num2" layoutX="115.0" layoutY="200.0" mnemonicParsing="false" onAction="#butNum2" prefHeight="53.0" prefWidth="58.0" text="2">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="196.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="3">
+      <Button fx:id="num3" layoutX="196.0" layoutY="200.0" mnemonicParsing="false" onAction="#butNum3" prefHeight="53.0" prefWidth="58.0" text="3">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="35.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="4">
+      <Button fx:id="num4" layoutX="35.0" layoutY="281.0" mnemonicParsing="false" onAction="#butNum4" prefHeight="53.0" prefWidth="58.0" text="4">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="115.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="5">
+      <Button fx:id="num5" layoutX="115.0" layoutY="281.0" mnemonicParsing="false" onAction="#butNum5" prefHeight="53.0" prefWidth="58.0" text="5">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="196.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="6">
+      <Button fx:id="num6" layoutX="196.0" layoutY="281.0" mnemonicParsing="false" onAction="#butNum6" prefHeight="53.0" prefWidth="58.0" text="6">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="35.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="7">
+      <Button fx:id="num7" layoutX="35.0" layoutY="358.0" mnemonicParsing="false" onAction="#butNum7" prefHeight="53.0" prefWidth="58.0" text="7">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="115.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="8">
+      <Button fx:id="num8" layoutX="115.0" layoutY="358.0" mnemonicParsing="false" onAction="#butNum8" prefHeight="53.0" prefWidth="58.0" text="8">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="196.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="9">
+      <Button fx:id="num9" layoutX="196.0" layoutY="358.0" mnemonicParsing="false" onAction="#butNum9" prefHeight="53.0" prefWidth="58.0" text="9">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="160.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="=">
+      <Button fx:id="equals" layoutX="160.0" layoutY="435.0" mnemonicParsing="false" onAction="#butEquals" prefHeight="53.0" prefWidth="58.0" text="=">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="77.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="0">
+      <Button fx:id="num0" layoutX="77.0" layoutY="435.0" mnemonicParsing="false" onAction="#butNum0" prefHeight="53.0" prefWidth="58.0" text="0">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="298.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="AC">
+      <Button fx:id="ac" layoutX="298.0" layoutY="200.0" mnemonicParsing="false" onAction="#butAc" prefHeight="53.0" prefWidth="58.0" text="AC">
          <font>
             <Font size="22.0" />
          </font>
       </Button>
-      <Button layoutX="387.0" layoutY="200.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="*" textAlignment="CENTER">
+      <Button fx:id="multiply" layoutX="387.0" layoutY="200.0" mnemonicParsing="false" onAction="#butMultiply" prefHeight="53.0" prefWidth="58.0" text="*" textAlignment="CENTER">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="301.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="/">
+      <Button fx:id="divide" layoutX="301.0" layoutY="358.0" mnemonicParsing="false" onAction="#butDivide" prefHeight="53.0" prefWidth="58.0" text="/">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="298.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="+">
+      <Button fx:id="add" layoutX="298.0" layoutY="281.0" mnemonicParsing="false" onAction="#butAdd" prefHeight="53.0" prefWidth="58.0" text="+">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="390.0" layoutY="281.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="-">
+      <Button fx:id="substract" layoutX="390.0" layoutY="281.0" mnemonicParsing="false" onAction="#butSubstract" prefHeight="53.0" prefWidth="58.0" text="-">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="390.0" layoutY="358.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="58.0" text="Sqr">
+      <Button fx:id="sqr" layoutX="390.0" layoutY="358.0" mnemonicParsing="false" onAction="#butSqr" prefHeight="53.0" prefWidth="58.0" text="Sqr">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button layoutX="298.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="65.0" text="Simplify">
+      <Button fx:id="simplify" layoutX="298.0" layoutY="435.0" mnemonicParsing="false" onAction="#butSimplify" prefHeight="53.0" prefWidth="65.0" text="Simplify">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
-      <Button layoutX="390.0" layoutY="435.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="65.0" text="Inverse">
+      <Button fx:id="inverse" layoutX="390.0" layoutY="435.0" mnemonicParsing="false" onAction="#butInverse" prefHeight="53.0" prefWidth="65.0" text="Inverse">
          <font>
             <Font size="13.0" />
          </font>
       </Button>
       <Separator layoutX="273.0" layoutY="200.0" orientation="VERTICAL" prefHeight="288.0" prefWidth="6.0" />
       <Separator layoutX="35.0" layoutY="172.0" prefHeight="19.0" prefWidth="414.0" />
-      <TextField alignment="CENTER" layoutX="41.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0">
+      <TextField fx:id="numerator1" alignment="CENTER" layoutX="41.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="42.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0">
+      <TextField fx:id="denominator1" alignment="CENTER" layoutX="42.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
-      <TextField layoutX="144.0" layoutY="86.0" prefHeight="31.0" prefWidth="33.0" />
-      <TextField alignment="TOP_CENTER" layoutX="198.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0">
+      <TextField fx:id="operation" layoutX="144.0" layoutY="86.0" prefHeight="31.0" prefWidth="33.0" />
+      <TextField fx:id="numerator2" alignment="TOP_CENTER" layoutX="198.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="198.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0">
+      <TextField fx:id="denominator2" alignment="CENTER" layoutX="198.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0">
          <font>
             <Font size="24.0" />
          </font>
@@ -134,12 +134,12 @@
             <Font size="48.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0" textAlignment="CENTER" underline="true">
+      <Label fx:id="numeratorRes" alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="39.0" prefHeight="53.0" prefWidth="80.0">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0" textAlignment="CENTER">
+      <Label fx:id="denominatorRes" alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="107.0" prefHeight="53.0" prefWidth="80.0" textAlignment="CENTER">
          <font>
             <Font size="24.0" />
          </font>
